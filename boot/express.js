@@ -10,7 +10,7 @@ var config = require("nconf");
 
 module.exports= function(app) {
 
-    app.set('port', config.get("app:port"));
+    app.set('port', process.env.PORT|| 5000);
     app.set('views', path.join(__dirname +"/.." ,'/views'));
     app.set('view engine', 'jade');
 
