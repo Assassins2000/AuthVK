@@ -1,0 +1,27 @@
+{
+  "name": "oauthpr",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "connect-flash": "*",
+    "connect-memcached": "*",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "errorhandler": "*",
+    "express": "~4.16.0",
+    "express-session": "*",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "method-override": "*",
+    "morgan": "~1.9.0",
+    "nconf": "*",
+    "passport": "*",
+    "passport-vkontakte": "*",
+    "request": "^2.87.0",
+    "request-promise": "*"
+  }
+}
