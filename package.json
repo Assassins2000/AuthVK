@@ -23,5 +23,9 @@
     "passport-vkontakte": "*",
     "request": "^2.87.0",
     "request-promise": "*"
+  },
+  "engines": {
+    "node": "8.6.0",
+    "npm": "5.3.0"
   }
 }
