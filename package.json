@@ -5,6 +5,10 @@
   "scripts": {
     "start": "node app.js"
   },
+  "engines": {
+    "node": "8.6.0",
+    "npm": "5.3.0"
+  },
   "dependencies": {
     "body-parser": "*",
     "connect-flash": "*",
@@ -23,9 +27,6 @@
     "passport-vkontakte": "*",
     "request": "^2.87.0",
     "request-promise": "*"
-  },
-  "engines": {
-    "node": "8.6.0",
-    "npm": "5.3.0"
   }
+  
 }
