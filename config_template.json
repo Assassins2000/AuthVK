@@ -1,0 +1,27 @@
+{
+  "app": {
+    "port": "",
+    "schema": "",
+    "url": ""
+  },
+  "auth":{
+    "app_id": "",
+    "secret": ""
+
+  },
+
+  "session": {
+    "secret": "",
+    "key": "",
+    "cookie": {
+      "path": "/",
+      "httpOnly": true,
+      "maxAge": null
+    },
+    "resave": false,
+    "saveUninitialized":false
+  }
+}
+
+
+
