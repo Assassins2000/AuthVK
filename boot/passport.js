@@ -1,8 +1,8 @@
 //boot/passport.js
-var config = require("nconf");
-var passport = require('passport');
+let config = require("nconf");
+let passport = require('passport');
 
-var AuthVKStrategy = require('passport-vkontakte').Strategy;
+let AuthVKStrategy = require('passport-vkontakte').Strategy;
 
 passport.use('vk', new AuthVKStrategy({
         clientID: config.get("auth:app_id"),

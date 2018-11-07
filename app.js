@@ -12,7 +12,7 @@ require("./boot/express")(app);
 require("./boot/passport")(app);
 require("./routes/index")(app);
 
-http.createServer(app).listen(app.get('port'), function (){
+http.createServer(app).listen(app.get('port'), ()=>{
     if ('development' == app.get('env')) {
         console.log('Express server listening on port ' + app.get('port'));
     }
